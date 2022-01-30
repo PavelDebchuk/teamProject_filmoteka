@@ -1,0 +1,90 @@
+.main-library,
+.main-home {
+  width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+
+  @media screen and(min-width:768px) {
+    width: 768px;
+  }
+
+  @media screen and(min-width:1024px) {
+    width: 1024px;
+  }
+}
+
+.photo-card {
+  cursor: pointer;
+  width: 280px;
+  max-height: 460px;
+  padding-bottom: 10px;
+  margin: 15px;
+  transform: scale(1);
+  transition: all 300ms $timer-function;
+
+  @media screen and(min-width:768px) {
+    width: 294px;
+  }
+
+  @media screen and(min-width:1024px) {
+    width: 274px;
+  }
+}
+.photo-card:hover {
+  transform: scale(1.1);
+}
+.photo-card img {
+  height: 400px;
+  width: 280px;
+  border-radius: 5px;
+
+  @media screen and(min-width:768px) {
+    width: 294px;
+  }
+
+  @media screen and(min-width:1024px) {
+    width: 274px;
+  }
+}
+.queue-list,
+.watched-list,
+.filmlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: -15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+.filmlist {
+  margin-bottom: 0;
+}
+
+.film-discription-box {
+  padding-top: 10px;
+}
+
+.film-discription {
+  font-family: Roboto;
+  color: #000;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  text-transform: uppercase;
+}
+
+.film-details {
+  color: #ff6b01;
+  margin-top: 5px;
+}
+
+.film-reiting {
+  color: #fff;
+  background: #ff6b01;
+  padding: 1px 6px;
+  border-radius: 5px;
+  margin-left: 10px;
+}

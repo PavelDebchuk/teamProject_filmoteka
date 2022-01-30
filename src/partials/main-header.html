@@ -1,0 +1,54 @@
+<header class="section-header">
+  <div class="container">
+    <div class="header">
+      <nav class="header-nav">
+        <div class="logo">
+          <a href="./index.html" aria-label="main page">
+            <img src="./images/logo.svg" class="logo__img" alt="logo" width="24" height="24" />
+            <span class="logo-text">Filmoteka</span>
+          </a>
+        </div>
+
+        <ul class="header-nav__items">
+          <li class="header-nav__item">
+            <a href="#" class="header-nav__link nav-link--active">
+              Home
+            </a>
+          </li>
+          <li class="header-nav__item">
+            <a href="#" class="btn header-nav__link">
+              My library</a>
+            
+          </li>
+          <!-- <li class="header-nav__item dropdown">
+            
+            <!-- <button class="btn dropbtn ">Genres</button>
+            <div class="dropdown-content">
+               -->
+          <!-- render genres -->
+            <!-- </div> -->
+          
+        <!-- </li> -->
+        </ul>
+      </nav>
+      <form class="header-input">
+        <input
+          class="input"
+          type="text"
+          name="search"
+          id="search"
+          placeholder="Search movies"
+        />
+        <span class="header__search-icon" id="search_btn"></span>
+      </form>
+      <!-- <div class="error is-hidden">
+        <p>Search result not successful. Enter the correct movie name and</p>
+      </div> -->
+    </div>
+    <button class="theme_btn" type="button" aria-label="Theme change button">
+      <svg class="theme_icon" width="15" height="30">
+        <use href="/images/symbol-themes.svg#icon"></use>
+      </svg>
+    </button>
+  </div>
+</header>
