@@ -3,20 +3,20 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://balor1989.github.io/filmoteka/",
+  "homepage": "https://balor1989.github.io/teamProject_filmoteka/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /filmoteka/"
+    "build": "parcel build src/*.html --public-url /teamProject_filmoteka/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Balor1989/filmoteka.git"
+    "url": "git+https://github.com/PavelDebchuk/teamProject_filmoteka.git"
   },
   "keywords": [],
   "author": "group-12",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Balor1989/filmoteka/issues"
+    "url": "https://github.com/PavelDebchuk/teamProject_filmoteka/issues"
   },
   "devDependencies": {
     "axios": "^0.24.0",
